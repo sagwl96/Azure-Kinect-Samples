@@ -5,6 +5,9 @@
 The Azure Kinect Body Tracking Simple3dViewer sample creates a 3d window that visualizes all the information provided
 by the body tracking SDK.
 
+## Build Info
+Point the independent project (second one other than the simple_3d_viewer - window_controller_3d) in Visual Studio to include header files from "sample_helper_includes" in order to build successfully
+
 ## Usage Info
 
 USAGE: simple_3d_viewer.exe SensorMode[NFOV_UNBINNED, WFOV_BINNED](optional) RuntimeMode[CPU, OFFLINE](optional)
