@@ -10,6 +10,9 @@ synchronously pushes and pops the capture to/from the tracker queue. To achieve 
 create separate reader thread and process thread. And keep pushing new frames to the tracker without waiting for the
 k4abt_pop_result to return successfully.
 
+## Build Info
+Point the project in Visual Studio to include header files from "sample_helper_includes" in order to build successfully
+
 ## Usage Info
 
 ```
